@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800,800italic,700italic);
+
+.sidebar {
+	background-color: #34495e;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 100%;
+}
+
+.sidebar-account {
+	background-color: #2ecc71;
+	padding-left: 15px;
+	line-height: 90px;
+	color: #ffffff;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+.sidebar-account > a {
+	color: #ffffff;
+}
+
+.sidebar-account > a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.sidebar .menu {
+	padding-top: 20px;
+}
+
+.sidebar .menu > ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.sidebar .menu > ul > li {
+	margin-bottom: 20px;
+}
+
+.sidebar .menu > ul > li > a {
+	display: block;
+	line-height: 48px;
+	color: #95a5a6;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	padding-left: 28px;
+}
+
+.sidebar .menu > ul > li > a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #243342;
+}
+
+.sidebar .menu > ul > li > a > i {
+	font-size: 18px;
+}
+
+.sidebar .menu > ul > li > a:hover > i {
+	color: #2ecc71;
+}
+
+.sidebar-logo {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: middle;
+}
+
+.header {
+	height: 90px;
+	position: absolute;
+	left: 200px;
+	right: 0;
+}
+
+.header-col-nav {
+	padding: 32px 10px;
+}
+
+.header-col-nav li {
+	font-size: 20px;
+}
+
+.header-col-logo {
+	text-align: center;
+	padding: 23px;
+}
+
+.header .search {
+	text-align: right;
+	padding: 32px;
+}
+
+.header-col-search-input {
+	border: none;
+	width: 120px;
+}
+
+.header li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 5px;
+}
+
+.header .header-logo {
+	float: left;
+	width: 36px;
+	height: 44px;
+}
+
+.content {
+	position: absolute;
+	top: 110px;
+	left: 245px;
+}
+
+.content .user {
+	
+}
+
+.content .user-img {
+	height: 100px;
+	width: 100px;
+}
+
+.container .user-text {
+	float: left;
+}
+
+.content .user-text .header-h1 {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #2c3e50;
+}
+
+.content .rating {
+	float: left;
+}
+
+.content .rating span:hover {
+	content: "fa fa-star";
+	position: absolute;
+}
