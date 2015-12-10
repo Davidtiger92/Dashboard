@@ -288,62 +288,75 @@
 
 .content .section {
 	background-color: #ecf0f1;
-	padding: 38px 45px;
+	padding: 27px 45px;
 }
 
 .content .section .panel {
-	color: #95a5a6;
+	border-top: none;
 }
 
-.content .section .panel .panel-heading {
+.content .section .panel-header {
 	background-color: #ecf0f1;
-	background-image: none;
-	border-width: none;
-	padding: 0;
 }
 
-.content .section .panel .panel-heading ul {
+.content .section .panel-header ul {
+
+}
+
+.content .section .panel-header ul li {
 	text-align: center;
-}
-
-.content .section .panel .panel-heading ul li {
 	width: 50%;
 }
 
-.content .section .panel .panel-heading ul li a {
+.content .section .panel-header ul li a {
 	color: #95a5a6;
 	font-size: 34px;
+	height: 85px;
+	margin: 0;
+	padding: 8px 0;
 }
 
-.content .section .panel .panel-heading .nav-tabs ul li:active {
+.content .section .panel-header ul li:first-child a {
+	border-left: none;
+}
+
+.content .section .panel-header ul li:last-child a {
+	border-right: none;
+}
+
+.content .section .panel-header ul li.active a {
 	color: #e67333;
 }
 
-.content .section .panel .panel-heading .nav-tabs .span {
+.content .section .panel-header ul li a .span {
 	display: block;
 	font-size: 12px;
 }
 
-.content .section .panel .panel-body {
+.content .section .panel-body {
 	padding: 0;
 }
 
-.content .section .panel .panel-body ul {
+.content .section .panel-body ul {
 	margin: 0;
 	padding: 0;
 }
 
-.content .section .panel .panel-body ul li {
+.content .section .panel-body ul li {
 	border-bottom: 1px #dee1e2 solid;
-	/*height: 56px;*/
 	list-style-type: none;
-	padding: 21px 35px;
+	padding: 20px 25px;
 	width: 100%;
 }
 
-.content .section .panel .panel-body ul li a {
-	color: #95a5a6;
+.content .section .panel-body ul li:hover {
+	background-color: #ecf0f1;
+	border-left: 4px #e67333 solid;
+	padding-left: 21px;
+}
+
+.content .section .panel-body ul li a {
+	color: #7f8c8d;
 	font-size: 13px;
-	line-height: 14px;
-	vertical-align: middle;
+	text-decoration: none;
 }
